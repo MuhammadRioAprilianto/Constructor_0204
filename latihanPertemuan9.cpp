@@ -16,3 +16,14 @@ class buku
     friend class petugas;
 };
 
+class peminjam
+{
+    private:
+    string nama;
+    string ID;
+    int totalPinjam;
+    public:
+    peminjam(string n, string i):nama(n), ID(i), totalPinjam(0){}
+    friend class petugas;
+};
+
